@@ -3,25 +3,27 @@ package learnObject;
 abstract public class Car {
 	
 	//プロパティ
+	 String name;
 	 String color;
-     double distance = 0.0; //総走行距離
-	 int price;
+     double totalDistance = 0.0; //総走行距離
 	 int totalCapa;
+	 double nennpi;
 	
 	 
 	 
 	//コンストラクタ
-	public Car(String color,  int price,  int totalCapa) {
+	public Car(String name, String color, int totalCapa, double nennpi) {
+		this.name = name;
 		this.color = color;
-		this.price = price;
 		this.totalCapa = totalCapa;
+		this.nennpi = nennpi;
 	}
 	
 	
     //メソッド
 	public void drive(double dis) {
 		
-		distance += dis;
+		totalDistance += dis;
 		
 	}
 	
