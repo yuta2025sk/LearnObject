@@ -10,9 +10,17 @@ public class Main {
 		
         jimny.drive(100);
         jimny.drive(200);
+        jimny.drive(500);
+        jimny.drive(200);
+    
         
         tesla.drive(300);
         tesla.drive(200);
+        tesla.drive(100);
+        tesla.drive(300); 
+        tesla.drive(200);
+     
+        
        
    
 		
