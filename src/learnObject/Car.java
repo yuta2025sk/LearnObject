@@ -3,11 +3,11 @@ package learnObject;
 abstract public class Car {
 	
 	//プロパティ
-	 String name;
-	 String color;
-     double totalDistance = 0.0; //総走行距離
-	 int totalCapa;
-	 double nennpi;
+	 public String name;
+	 public String color;
+	 public double totalDistance = 0.0; //総走行距離
+	 public int totalCapa;
+	 public double nennpi;
 	
 	 
 	 

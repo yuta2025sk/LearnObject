@@ -29,6 +29,7 @@ abstract public class ElectricCar extends Car {
 	    		System.out.println(color + "の" + name + "の総走行距離は" + totalDistance + "kmです。");
 
 	    		nowDistance = batteryLevel * nennpi; // 残りのバッテリーで走行可能な距離を再計算
+	    		
 
 	    		System.out.println("残り" + nowDistance + "km走行できます。");
 	    		System.out.println("--------------------------------------------------------");

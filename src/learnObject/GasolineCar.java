@@ -18,7 +18,7 @@ abstract public class GasolineCar extends Car {
 
     	if (dis > nowDistance) {
     		System.out.println("指定した距離は残りのガソリンで走行できる距離を超えています。");
-    		dis = nowDistance; // 走行距離を残りの走行可能な距離に制限
+    		dis = nowDistance; // 走行距離を残りの走行可能な距離にしてdisに代入
     	}
 
     	if (dis > 0) {
